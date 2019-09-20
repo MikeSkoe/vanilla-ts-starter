@@ -1,0 +1,19 @@
+{
+  "name": "dev.to-q23rp98u",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "ts": "yarn tsc -w",
+    "less": "node node_module/less-watch-compiler/dist/less-watch-compiler.js src public style.less"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "less-watch-compiler": "^1.14.1",
+    "typescript": "^3.6.3"
+  }
+}
